@@ -1,0 +1,17 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "certificado",
+  "outputfilename": "Certificado",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Danillo"
+  },
+  "info": {
+    "productName": "Leitor de Certificados Digitais",
+    "productVersion": "1.0.0",
+    "comments": "Leitor de certificados digitais ICP-Brasil"
+  }
+}

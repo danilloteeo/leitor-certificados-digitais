@@ -1,0 +1,16 @@
+# build
+build/bin
+frontend/dist
+node_modules
+
+# arquivos locais
+assets/
+
+# certificados e chaves: nunca versionar
+*.pfx
+*.p12
+*.cer
+*.crt
+*.pem
+*.key
+*.der
